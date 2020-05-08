@@ -1,0 +1,40 @@
+﻿<Window x:Class="SistemaCompraGado.Presentation.CompraGado"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistemaCompraGado.Presentation"
+        mc:Ignorable="d"
+        Title="CompraGado" Height="450" Width="800">
+    <Grid Margin="0,0,0,-12">
+        <Label Content="Compra Gado" HorizontalAlignment="Left" Margin="10,10,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="107,48,0,0" TextWrapping="Wrap" Name="txtID" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="ID" HorizontalAlignment="Left" Height="28" Margin="74,46,0,0" VerticalAlignment="Top" Width="26"/>
+        <Label Content="Data de Entrega" HorizontalAlignment="Left" Margin="10,76,0,0" VerticalAlignment="Top"/>
+        <TextBox HorizontalAlignment="Left" Height="23" Margin="107,79,0,0" Name="txtDtEntrega" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Label Content="Pecuarista" HorizontalAlignment="Left" Margin="245,76,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Margin="325,79,0,0" VerticalAlignment="Top" Width="424" Name="cboPecuarista" ItemsSource="{Binding LstPecuarista}" DisplayMemberPath="Nome" SelectedValuePath="ID"/>
+        <Label Content="Animal" HorizontalAlignment="Left" Margin="10,116,0,0" VerticalAlignment="Top"/>
+        <Button Content="Adicionar" HorizontalAlignment="Left" Name="btnAdicionar" Margin="10,147,0,0" VerticalAlignment="Top" Width="75" Click="BtnAdicionar_Click"/>
+        <Button Content="Excluir" HorizontalAlignment="Left" Name="btnExcluir" Margin="99,147,0,0" VerticalAlignment="Top" Width="75" Click="BtnExcluir_Click"/>
+        <Button Content="Alterar" HorizontalAlignment="Left" Name="btnAlterar" Margin="187,147,0,0" VerticalAlignment="Top" Width="75" Click="BtnAlterar_Click"/>
+        <DataGrid HorizontalAlignment="Left" Height="117" Margin="10,187,0,0" Name="grdItens" VerticalAlignment="Top" Width="772" SelectionChanged="DataGrid_SelectionChanged"  ItemsSource="{Binding Source=LstAnimalGrid}"  AutoGenerateColumns="False" IsReadOnly="True">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Animal" Binding="{Binding DescricaoAnimal}"/>
+                <DataGridTextColumn Header="Quantidade" Binding="{Binding Quantidade}"/>
+                <DataGridTextColumn Header="Preço" Binding="{Binding Preco}"/>
+                <DataGridTextColumn Header="Valor Total" Binding="{Binding ValorTotal}"/>
+            </DataGrid.Columns>
+        </DataGrid>
+        <Label Content="Adicionar" Name="lblModificar" HorizontalAlignment="Left" Margin="10,341,0,0" VerticalAlignment="Top"/>
+        <ComboBox HorizontalAlignment="Left" Height="26" Name="cboAnimal" Margin="75,368,0,0" VerticalAlignment="Top" Width="199" ItemsSource="{Binding LstAnimal}" DisplayMemberPath="Descricao" SelectedValuePath="ID"/>
+        <Label Content="Animal" Name="lblAnimal" HorizontalAlignment="Left" Height="29" Margin="10,368,0,0" VerticalAlignment="Top" Width="60"/>
+        <Label Content="Quantidade" Name="lblQuantidade" HorizontalAlignment="Left" Height="26" Margin="287,368,0,0" VerticalAlignment="Top" Width="73"/>
+        <TextBox HorizontalAlignment="Left" Height="26" Name="txtQuantidade" Margin="376,368,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="155"/>
+        <Button Content="Salvar" Name="btnSalvar" HorizontalAlignment="Left" Height="29" Margin="551,368,0,0" VerticalAlignment="Top" Width="103" Click="BtnSalvar_Click"/>
+        <Button Content="Cancelar" x:Name="btnCancelar" HorizontalAlignment="Left" Height="29" Margin="667,368,0,0" VerticalAlignment="Top" Width="103" Click="BtnCancelar_Click"/>
+        <Label Content="Total: " Name="lblTotal" HorizontalAlignment="Left" Margin="648,309,0,0" VerticalAlignment="Top" Width="134"  />
+        <Button Content="Gravar Compra" x:Name="btnGravarCompra" HorizontalAlignment="Left" Height="29" Margin="667,367,0,0" VerticalAlignment="Top" Width="103" Click="btnGravarCompra_Click"/>
+
+    </Grid>
+</Window>

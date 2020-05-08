@@ -1,0 +1,16 @@
+﻿<Window x:Class="SistemaCompraGado.Presentation.Relatorio"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:rv="clr-namespace:Microsoft.Reporting.WinForms;assembly=Microsoft.ReportViewer.WinForms"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SistemaCompraGado.Presentation"
+        mc:Ignorable="d"
+        Title="Relatorio" Height="626.377" Width="964.936">
+    <Grid>
+        <WindowsFormsHost HorizontalAlignment="Left" Height="595" VerticalAlignment="Top" Width="957">
+            <rv:ReportViewer x:Name="_reportViewer"/>
+        </WindowsFormsHost>
+
+    </Grid>
+</Window>

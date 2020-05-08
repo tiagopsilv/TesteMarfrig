@@ -1,0 +1,17 @@
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.deps.json
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.dll
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.pdb
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.dll
+C:\Projetos\Pessoal\Estudo\C#\ComprasGado\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.pdb
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.deps.json
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.dll
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\bin\Debug\netcoreapp2.1\SistemaCompraGado.Domain.pdb
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.csprojAssemblyReference.cache
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.csproj.CoreCompileInputs.cache
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.AssemblyInfoInputs.cache
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.AssemblyInfo.cs
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.dll
+C:\Projetos\Pessoal\Estudo\C#\CompraGadoGit\CompraGado.Domain\obj\Debug\netcoreapp2.1\SistemaCompraGado.Domain.pdb

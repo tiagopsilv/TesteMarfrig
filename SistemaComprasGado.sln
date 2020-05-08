@@ -1,0 +1,78 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.572
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - Presentation", "0 - Presentation", "{A371BDDE-A13D-4C49-BD80-B783C0D02A27}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1 - Services", "1 - Services", "{5778C35F-17ED-47C7-A0B1-266B4C9EFD50}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2 - Application", "2 - Application", "{51A2D3E3-8797-4A43-B718-A55DC5A7E369}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3 - Domain", "3 - Domain", "{47D97136-845C-4F6B-9BE0-41765A5AFCD0}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4 - Infra", "4 - Infra", "{04246993-05A4-48EE-B31D-B346327EFCBB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "5 - Test", "5 - Test", "{B0C3DD71-622C-4132-B554-3E7488BC8669}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCompraGado.Domain", "CompraGado.Domain\SistemaCompraGado.Domain.csproj", "{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4.1 Data", "4.1 Data", "{66BDD17B-273B-44DA-A514-566B398694F8}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCompraGado.Infra.Data", "SistemaCompraGado.Infra.Data\SistemaCompraGado.Infra.Data.csproj", "{40B39772-5562-4C6B-B2C5-4250AFB02B98}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "XTest", "XTest\XTest.csproj", "{DDE18226-4E67-4C62-8E2A-A306C6D2B946}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCompraGado.Application", "SistemaCompraGado.Application\SistemaCompraGado.Application.csproj", "{0BDC6D27-0439-4BCD-9452-9043E88FE78A}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SistemaCompraGado.Services", "SistemaCompraGado.Services\SistemaCompraGado.Services.csproj", "{09B99694-526F-44EB-A481-63B203D9FD84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SistemaCompraGado.Presentation", "SistemaCompraGado.Presentation\SistemaCompraGado.Presentation.csproj", "{84B5C17F-087B-42BA-B30D-AFEE42DC0B09}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134}.Release|Any CPU.Build.0 = Release|Any CPU
+		{40B39772-5562-4C6B-B2C5-4250AFB02B98}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{40B39772-5562-4C6B-B2C5-4250AFB02B98}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{40B39772-5562-4C6B-B2C5-4250AFB02B98}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{40B39772-5562-4C6B-B2C5-4250AFB02B98}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DDE18226-4E67-4C62-8E2A-A306C6D2B946}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DDE18226-4E67-4C62-8E2A-A306C6D2B946}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DDE18226-4E67-4C62-8E2A-A306C6D2B946}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DDE18226-4E67-4C62-8E2A-A306C6D2B946}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BDC6D27-0439-4BCD-9452-9043E88FE78A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BDC6D27-0439-4BCD-9452-9043E88FE78A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BDC6D27-0439-4BCD-9452-9043E88FE78A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BDC6D27-0439-4BCD-9452-9043E88FE78A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B99694-526F-44EB-A481-63B203D9FD84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B99694-526F-44EB-A481-63B203D9FD84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B99694-526F-44EB-A481-63B203D9FD84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B99694-526F-44EB-A481-63B203D9FD84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{84B5C17F-087B-42BA-B30D-AFEE42DC0B09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{84B5C17F-087B-42BA-B30D-AFEE42DC0B09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{84B5C17F-087B-42BA-B30D-AFEE42DC0B09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{84B5C17F-087B-42BA-B30D-AFEE42DC0B09}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{DAA08E0C-B6B2-452D-AEF3-F8DA8691C134} = {47D97136-845C-4F6B-9BE0-41765A5AFCD0}
+		{66BDD17B-273B-44DA-A514-566B398694F8} = {04246993-05A4-48EE-B31D-B346327EFCBB}
+		{40B39772-5562-4C6B-B2C5-4250AFB02B98} = {66BDD17B-273B-44DA-A514-566B398694F8}
+		{DDE18226-4E67-4C62-8E2A-A306C6D2B946} = {B0C3DD71-622C-4132-B554-3E7488BC8669}
+		{0BDC6D27-0439-4BCD-9452-9043E88FE78A} = {51A2D3E3-8797-4A43-B718-A55DC5A7E369}
+		{09B99694-526F-44EB-A481-63B203D9FD84} = {5778C35F-17ED-47C7-A0B1-266B4C9EFD50}
+		{84B5C17F-087B-42BA-B30D-AFEE42DC0B09} = {A371BDDE-A13D-4C49-BD80-B783C0D02A27}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {67113361-B863-4550-9E1A-6849D7BE3B36}
+	EndGlobalSection
+EndGlobal
