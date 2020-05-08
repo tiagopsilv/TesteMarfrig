@@ -22,7 +22,7 @@ O sitema é dividido em 5 camadas
 
 ## Installation
 
-Antes de executar é necessário executar os scripts do arquivo dbo.Base.sql, alterar os endereços de Endpoint e ConnectionStrings
+Antes de iniciar é necessário executar os scripts do arquivo dbo.Base.sql, alterar os endereços de Endpoint e ConnectionStrings
 
 Arquivo dbo.Base.sql: Executar as querys desse arquivo no Banco SQL Server.
 
