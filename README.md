@@ -2,7 +2,7 @@
 
 Avaliação Técnica - Desenvolvedor .NET - Marfrig
 
-Sistema de Compra de Gado é um sistema de possíbilita a manuteção dessa operação.
+Sistema de Compra de Gado é um sistema que possíbilita a manuteção dessa operação.
 
 Funções:
 Pesquisar Compras
